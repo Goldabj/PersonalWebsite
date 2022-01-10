@@ -104,6 +104,19 @@ body {
 }
 
 
+/*---------- UPDATES ------------*/
+
+
+/* Allow Background Image to be set */
+
+.notion-root .notion-image:first-of-type {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+
 /*---------  TYPOGRAPHY ---------*/
 
 h1 {
@@ -843,7 +856,6 @@ img {
     --color-text-gray: #68757B !important;
     --color-text-brown: #7F5741 !important;
     --color-text-orange: #F56C36 !important;
-    !important;
     --color-text-yellow: #FFB11E !important;
     --color-text-green: #16A494 !important;
     --color-text-blue: #4E95FE !important;
