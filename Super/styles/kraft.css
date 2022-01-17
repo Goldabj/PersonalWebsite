@@ -889,7 +889,8 @@ img.notion-icon {
     --color-text-pink: #FF60AE !important;
     --color-text-red: #FF5050 !important;
     --column-spacing: 48px !important;
-    --color-bg-default: #fcfcfc;
+    --color-bg-default: #fcfcfc !important;
+    --color-border-default: #fcfcfc !important;
     --collection-card-cover-size-small: 100% !important;
     --collection-card-cover-size-medium: 100% !important;
     --collection-card-cover-size-large: 100% !important;
